@@ -5,6 +5,7 @@ hydra-optuna-sweeper==1.1.1
 hydra-joblib-launcher~=1.1.5
 
 # --------- others --------- #
+wandb
 numpy
 pandas
 matplotlib
@@ -26,4 +27,3 @@ shap
 tsfresh
 line-profiler
 esig
-wandb
