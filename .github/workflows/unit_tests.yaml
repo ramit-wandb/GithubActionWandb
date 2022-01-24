@@ -17,8 +17,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest wheel
         if [ -f requirements.txt ]; then
-          pip install wandb==0.12.4;
-          pip install --upgrade protobuf;
-          pip install -r requirements.txt; fi
+          pip install -r requirements.txt; 
+        fi
     - name: Test wandb Install
       run: python test.py 
